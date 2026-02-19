@@ -1,11 +1,11 @@
 console.log(a)
 var a =10
-// => undefined but why ?
+// // => undefined but why ?
 
 var a
 console.log(a)
 a = 10
-// => 10 why ?
+// // => 10 why ?
 
 console.log(b)
 let b = 5
@@ -14,3 +14,4 @@ let b = 5
 // we should use let and const not var because var is not mordern justification.
 // we use default to const
 // we use let when we have to reassignment 
+
