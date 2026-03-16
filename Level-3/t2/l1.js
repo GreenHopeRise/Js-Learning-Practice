@@ -11,3 +11,38 @@ const x = function(){
 }
 x()
 // we cann't access expression function before declaration
+hell()
+
+const hell = function() {
+  console.log("Hi")
+}
+
+
+
+helo()
+
+var helo = function() {
+  console.log("Hi")
+}
+
+function test() {
+  var a
+  console.log(a)
+
+  a = 5
+}
+
+test()
+
+
+function outer() {
+  var a = 10
+
+  function inner() {
+    console.log(a)
+  }
+
+  inner()
+}
+
+outer()
