@@ -46,3 +46,17 @@ function outer() {
 }
 
 outer()
+
+
+
+function counter() {
+  let count = 0; 
+  return function () { 
+    count++;
+    console.log(count);
+  };
+}
+
+const c1 = counter(); 
+c1();
+c1();
