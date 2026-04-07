@@ -7,10 +7,28 @@ const a = [1,2,3,4,5]
 const newA = [...a, 4] //a is not muted 
 
 
-a.map((a)=>{
-    console.log(a*2)
+const res = a.map((n)=>{
+    return n*2
 })
+console.log(res)
+
+
+const sqr = a.map((s)=>{
+    return s*s
+})
+console.log(sqr)
 
 
 console.log(
 a.filter(a=> a%2===0))
+
+
+const b = [10,20,30,40,50]
+const filte = b.filter((b)=> b> 15)
+console.log(filte)
+
+const sum = b.reduce((acc, con)=>{
+    return acc+con
+},0)
+console.log(sum)
+
