@@ -32,3 +32,21 @@ const sum = b.reduce((acc, con)=>{
 },0)
 console.log(sum)
 
+console.log(1);
+
+setTimeout(() => {
+  console.log(3);
+}, 0);
+
+console.log(2);
+
+
+console.log("Start");
+
+setTimeout(() => {
+  console.log("Timeout");
+}, 0);
+
+for (let i = 0; i < 1e9; i++) {} // heavy work
+
+console.log("Ends");
